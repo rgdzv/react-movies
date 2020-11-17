@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  text-align: center;
+
+  hr {
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: 'Roboto', serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+
+    a {
+      color: #000;
+    }
+  }
+}

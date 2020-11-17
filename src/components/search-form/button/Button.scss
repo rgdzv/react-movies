@@ -1,0 +1,16 @@
+.search__button {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #cecece;
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  transition: background .2s linear;
+
+  &:hover {
+    background: darken(#397FBD, 10%);
+  }
+}

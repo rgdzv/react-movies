@@ -1,0 +1,17 @@
+.search__input {
+  width: 450px;
+  height: 30px;
+  outline: none;
+  padding: 5px;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 5px;
+  border: 1px solid #cecece;
+  background: transparent;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

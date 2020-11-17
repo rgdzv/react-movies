@@ -1,0 +1,30 @@
+.movie__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .movie__details__poster {
+    width: 200px;
+    height: 300px;
+    box-shadow: -5px 5px 10px #020a11;
+    margin-bottom: 15px;
+  }
+
+  .movie__details__content {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+
+    .movie__details__title,
+    .movie__details__release,
+    .movie__details__rating,
+    .movie__details__overview {
+      margin-bottom: 15px;
+
+      b {
+        text-decoration: underline;
+      }
+    }
+  }
+}
