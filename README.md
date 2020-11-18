@@ -21,11 +21,15 @@
 ```
 $ git clone https://github.com/rgdzv/react-movies.git
 ```
-3. Put your API key in action.js file:
+3. Install dependencies
+```
+$ npm install
+```
+4. Put your API key in action.js file:
 ```
 const API_KEY = ''  // Put your API KEY here as a string!
 ```
-4. Run the application:
+5. Run the application:
 ```
 $ npm start
 ```
