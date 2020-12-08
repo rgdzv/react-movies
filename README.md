@@ -17,6 +17,7 @@
 ## Installation
 
 1. Sign up on https://www.themoviedb.org to get your API key
+
 2. Download the repo with:
 ```
 $ git clone https://github.com/rgdzv/react-movies.git
